@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      spacing="15" alignment="CENTER" styleClass="main-container">
+  <Text text="Bienvenido a JavaFX" styleClass="title"/>
+  <TextField promptText="Usuario" fx:id="usernameField" styleClass="input-field"/>
+  <PasswordField promptText="Contraseña" fx:id="passwordField" styleClass="input-field"/>
+  <Button text="Entrar" styleClass="login-button"/>
+</VBox>

@@ -1,0 +1,53 @@
+.custom-button {
+    -fx-background-color: #ff4081;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 10;
+}
+
+.custom-button:hover {
+    -fx-background-color: #c51162;
+}
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-fill: #333;
+}
+
+.main-container {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-fill: #333;
+}
+
+.input-field {
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 8;
+    -fx-border-color: #d50404;
+    -fx-border-width: 1px;
+}
+.input-field:hover {
+
+    -fx-border-color: #048cd5;
+
+}
+
+.login-button {
+    -fx-background-color: #ff4081;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8;
+}
+
+.login-button:hover {
+    -fx-background-color: #c51162;
+}
